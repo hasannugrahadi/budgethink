@@ -12,8 +12,7 @@ import SwiftData
 struct budgethinkApp: App {
     var body: some Scene {
         WindowGroup() {
-            MainView()
+            HomeView()
         }
-        .modelContainer(for: [Plan.self])
     }
 }

@@ -5,10 +5,15 @@
 //  Created by MacBook on 15/05/25.
 //
 
-import Foundation
 
-enum Priority {
-    case low
-    case medium
-    case high
+
+enum Priority: String, CaseIterable, Codable{
+    case Low
+    case Medium
+    case High
+}
+
+enum Category: String, Codable{
+    case Needs
+    case Wants
 }

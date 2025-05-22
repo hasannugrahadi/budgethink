@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04043B172DD9A4130088D3E6 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04043B162DD9A4130088D3E6 /* Plan.swift */; };
+		04043B1C2DDAE1720088D3E6 /* PlanRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04043B1B2DDAE1720088D3E6 /* PlanRowView.swift */; };
+		0435CECC2DD581C40049CC07 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435CECB2DD581C40049CC07 /* DashboardView.swift */; };
+		0435CED02DD583AE0049CC07 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435CECF2DD583AE0049CC07 /* ReportView.swift */; };
+		0435CED72DD5A5190049CC07 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435CED62DD5A5190049CC07 /* Enums.swift */; };
+		0435CEDB2DD63A5D0049CC07 /* AddEditPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435CEDA2DD63A5D0049CC07 /* AddEditPlanView.swift */; };
+		046485A82DD847F500C43413 /* AddEditBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046485A72DD847F500C43413 /* AddEditBudgetView.swift */; };
+		046485AC2DD9848F00C43413 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046485AB2DD9848F00C43413 /* Budget.swift */; };
 		0465CDD22DD3A9BD000CAF1C /* budgethinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CDD12DD3A9BD000CAF1C /* budgethinkApp.swift */; };
-		0465CDD42DD3A9BD000CAF1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CDD32DD3A9BD000CAF1C /* ContentView.swift */; };
+		0465CDD42DD3A9BD000CAF1C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CDD32DD3A9BD000CAF1C /* HomeView.swift */; };
 		0465CDD62DD3A9BE000CAF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0465CDD52DD3A9BE000CAF1C /* Assets.xcassets */; };
 		0465CDD92DD3A9BE000CAF1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0465CDD82DD3A9BE000CAF1C /* Preview Assets.xcassets */; };
 		0465CDE32DD3A9BE000CAF1C /* budgethinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465CDE22DD3A9BE000CAF1C /* budgethinkTests.swift */; };
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04043B162DD9A4130088D3E6 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		04043B1B2DDAE1720088D3E6 /* PlanRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRowView.swift; sourceTree = "<group>"; };
+		0435CECB2DD581C40049CC07 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		0435CECF2DD583AE0049CC07 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		0435CED62DD5A5190049CC07 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		0435CEDA2DD63A5D0049CC07 /* AddEditPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditPlanView.swift; sourceTree = "<group>"; };
+		046485A72DD847F500C43413 /* AddEditBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditBudgetView.swift; sourceTree = "<group>"; };
+		046485AB2DD9848F00C43413 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		0465CDCE2DD3A9BD000CAF1C /* budgethink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budgethink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465CDD12DD3A9BD000CAF1C /* budgethinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgethinkApp.swift; sourceTree = "<group>"; };
-		0465CDD32DD3A9BD000CAF1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0465CDD32DD3A9BD000CAF1C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0465CDD52DD3A9BE000CAF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0465CDD82DD3A9BE000CAF1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0465CDDE2DD3A9BE000CAF1C /* budgethinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = budgethinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +87,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04043B182DDAE0A30088D3E6 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				04043B1B2DDAE1720088D3E6 /* PlanRowView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0435CED12DD592620049CC07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0435CED62DD5A5190049CC07 /* Enums.swift */,
+				046485AB2DD9848F00C43413 /* Budget.swift */,
+				04043B162DD9A4130088D3E6 /* Plan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		046485A22DD8211700C43413 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04043B182DDAE0A30088D3E6 /* Component */,
+				046485A62DD83CB600C43413 /* ModalView */,
+				0435CECF2DD583AE0049CC07 /* ReportView.swift */,
+				0435CECB2DD581C40049CC07 /* DashboardView.swift */,
+				0465CDD32DD3A9BD000CAF1C /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046485A62DD83CB600C43413 /* ModalView */ = {
+			isa = PBXGroup;
+			children = (
+				0435CEDA2DD63A5D0049CC07 /* AddEditPlanView.swift */,
+				046485A72DD847F500C43413 /* AddEditBudgetView.swift */,
+			);
+			path = ModalView;
+			sourceTree = "<group>";
+		};
 		0465CDC52DD3A9BD000CAF1C = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +149,9 @@
 		0465CDD02DD3A9BD000CAF1C /* budgethink */ = {
 			isa = PBXGroup;
 			children = (
+				0435CED12DD592620049CC07 /* Models */,
+				046485A22DD8211700C43413 /* View */,
 				0465CDD12DD3A9BD000CAF1C /* budgethinkApp.swift */,
-				0465CDD32DD3A9BD000CAF1C /* ContentView.swift */,
 				0465CDD52DD3A9BE000CAF1C /* Assets.xcassets */,
 				0465CDD72DD3A9BE000CAF1C /* Preview Content */,
 			);
@@ -257,8 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0465CDD42DD3A9BD000CAF1C /* ContentView.swift in Sources */,
+				0465CDD42DD3A9BD000CAF1C /* HomeView.swift in Sources */,
+				0435CEDB2DD63A5D0049CC07 /* AddEditPlanView.swift in Sources */,
+				0435CED02DD583AE0049CC07 /* ReportView.swift in Sources */,
+				046485AC2DD9848F00C43413 /* Budget.swift in Sources */,
+				0435CECC2DD581C40049CC07 /* DashboardView.swift in Sources */,
+				046485A82DD847F500C43413 /* AddEditBudgetView.swift in Sources */,
+				04043B172DD9A4130088D3E6 /* Plan.swift in Sources */,
 				0465CDD22DD3A9BD000CAF1C /* budgethinkApp.swift in Sources */,
+				04043B1C2DDAE1720088D3E6 /* PlanRowView.swift in Sources */,
+				0435CED72DD5A5190049CC07 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
